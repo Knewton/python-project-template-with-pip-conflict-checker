@@ -1,0 +1,7 @@
+# This file specifies the dependencies that are needed to run tests for this project. Specifically,
+# this file is fed into `tests_require` in `setup.py`. Keep this file in sync with
+# `requirements.txt`. This file should contain ranges of requirements, not pinned versions. It
+# should contain only direct dependencies, not transitive dependencies.
+pip-conflict-checker>=0.3,<0.4
+pipdeptree>=0.4,<0.5
+pytest>=2.7,<3

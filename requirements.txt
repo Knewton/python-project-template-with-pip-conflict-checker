@@ -1,0 +1,12 @@
+# This file specifies the dependencies that are needed to run tests for this project. Specifically,
+# this file is used to as `deps` in `tox.ini`. Keep this file in sync with
+# `requirements*.in`. This file should contain pinned versions of requirements, not version ranges.
+# This file should match the output of `pip freeze`, which should contain both direct and transitive
+# dependencies.
+lxml==3.4.4
+pip-conflict-checker==0.3
+pipdeptree==0.4.3
+py==1.4.30
+pytest==2.7.2
+requests==2.7.0
+wheel==0.24.0
